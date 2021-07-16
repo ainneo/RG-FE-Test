@@ -1,0 +1,51 @@
+/* .sectionThree-banner > * {
+  z-index: 100;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+.sectionThree-banner {
+  position: relative;
+  min-height: 80vh;
+  background-image: url("../../assets/banner-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.sectionThree-banner-content {
+  display: flex;
+  justify-content: left;
+  padding-left: 100px;
+}
+
+.sectionThree-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #890159;
+}
+
+.sectionThree-banner-text > * {
+  padding: 10px;
+}
+
+.sectionThree-banner-text button {
+  color: white;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  background-color: hsl(24, 90%, 53%);
+  animation: glow 10s infinite;
+  transition: 0.5s;
+}
+
+button:hover {
+  height: 55px;
+  width: 110px;
+}

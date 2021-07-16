@@ -8,7 +8,9 @@ export default function Landing() {
         <div className="banner-text">
           <h1>WELCOME TO</h1>
           <h1>Rooster Grin</h1>
-          <button>Sign Up</button>
+          <a href="#learnMore">
+            <button>Learn More</button>
+          </a>
         </div>
       </div>
     </div>

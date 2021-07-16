@@ -24,7 +24,7 @@ export default function About() {
               </AboutSqaureContentText>
             </AboutSqaureContent>
             <AboutP>
-              I am a San Francisco based frontend engineer. My interest in web
+              am a San Francisco based frontend engineer. My interest in web
               development started back in 2019 when I was building my own
               website - turns out hacking together a WordPress site taught me a
               lot about HTML & CSS! Today, I've had the privilege of working for
