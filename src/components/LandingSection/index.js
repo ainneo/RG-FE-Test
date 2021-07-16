@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <div className="banner">
       <div className="banner-content">
-        <div className="banner-text">
+        <div className="banner-text fade-in-text">
           <h1>WELCOME TO</h1>
           <h1>Rooster Grin</h1>
           <a href="#learnMore">

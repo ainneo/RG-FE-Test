@@ -39,7 +39,8 @@ button {
   border: none;
   border-radius: 50px;
   transition: 0.3s;
-  background-color: rgba(156, 161, 160, 0.3);
+  background: #890159;
+  /* background-color: rgba(156, 161, 160, 0.3); */
   animation: glow 10s infinite;
   transition: 0.5s;
 }
@@ -47,4 +48,23 @@ button {
 button:hover {
   height: 55px;
   width: 110px;
+}
+
+.fade-in-text {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: #fff;
+  animation: fadeIn linear 5s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
