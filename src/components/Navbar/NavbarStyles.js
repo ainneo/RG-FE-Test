@@ -13,7 +13,7 @@ export const Nav = styled.nav`
   font-size: 1rem;
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
   background: #fff;
 
   //mq will excute these styles at this break point
