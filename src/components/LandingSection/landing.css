@@ -1,0 +1,47 @@
+.banner > * {
+  z-index: 100;
+}
+
+.banner {
+  position: relative;
+  min-height: 90vh;
+  background-image: url("../../assets/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.banner-content {
+  margin: auto;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.banner-text > * {
+  padding: 10px;
+}
+
+button {
+  color: white;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  background-color: rgba(156, 161, 160, 0.3);
+  animation: glow 10s infinite;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: rgba(156, 161, 160, 0.3);
+  height: 55px;
+  width: 110px;
+}
