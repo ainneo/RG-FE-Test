@@ -10,22 +10,21 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  flex-flow: row-reverse;
 }
 
 .sectionFive-banner-content {
   display: flex;
-  justify-content: right;
-  padding-left: 100px;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .sectionFive-banner-text {
-  min-width: 320px;
-  width: 500px;
+  max-width: 680px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: right;
   color: #890159;
+  padding: 0 60px 0 140px;
 }
 
 .sectionFive-banner-text p {

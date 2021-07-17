@@ -13,7 +13,7 @@ export default function SectionFour() {
   }, []);
 
   return (
-    <div id="learnMore" className="sectionFour-container">
+    <div id="what" className="sectionFour-container">
       <div className="sectionFour-content">
         <div data-aos="fade-up" className="sectionFour-text">
           <h2>

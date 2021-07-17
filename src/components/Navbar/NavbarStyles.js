@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: fixed;
+  position: fixed !important;
   top: 0;
   z-index: 1000;
   background: #fff;
