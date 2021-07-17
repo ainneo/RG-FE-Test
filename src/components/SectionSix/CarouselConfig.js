@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from "react";
 import Carousel from "nuka-carousel";
-import reviews from "../../data/reviews.json";
 
 // CONFIG DO NOT REMOVE
 const colors = ["#fffff", "#ffffff", "#ffffff"];
@@ -9,6 +8,7 @@ const CarouselConfig = () => {
   const [animation, setAnimation] = useState(undefined);
   const [autoplay, setAutoplay] = useState(false);
   const [cellAlign, setCellAlign] = useState("left");
+  const [cellSpacing, setCellSpacing] = useState(0);
   const [heightMode, setHeightMode] = useState("max");
   const [length, setLength] = useState(colors.length);
   const [scrollMode, setScrollMode] = useState("remainder");
@@ -30,7 +30,7 @@ const CarouselConfig = () => {
       <div
         style={{
           fontFamily: "Helvetica",
-          color: "#fff",
+          color: "purple",
           textDecoration: underlineHeader ? "underline" : "none",
         }}
       >
@@ -41,7 +41,9 @@ const CarouselConfig = () => {
 
   const slides = colors.slice(0, length).map((color, index) => (
     <img
-      src={`${reviews.image}${color}${index + 1}`}
+      src={`https://via.placeholder.com/400/${color}/ffffff/&text=slide${
+        index + 1
+      }`}
       alt={`Slide ${index + 1}`}
       key={color}
       onClick={() => handleImageClick()}
@@ -56,20 +58,20 @@ const CarouselConfig = () => {
       <div style={{ width: "100%", margin: "auto", color: "grey" }}>
         <Carousel
           renderCenterLeftControls={({ previousSlide }) => (
-            <button
+            <div
               style={{ background: "none", color: "purple" }}
               onClick={previousSlide}
             >
               <i className="fa fa-angle-left fa-2x" />
-            </button>
+            </div>
           )}
           renderCenterRightControls={({ nextSlide }) => (
-            <button
+            <div
               style={{ background: "none", color: "purple" }}
               onClick={nextSlide}
             >
               <i className="fa fa-angle-right fa-2x" />
-            </button>
+            </div>
           )}
           animation={animation}
           autoplay={autoplay}
