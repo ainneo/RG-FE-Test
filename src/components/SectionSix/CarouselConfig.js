@@ -22,6 +22,20 @@ const CarouselConfig = () => {
 
   const handleImageClick = useCallback(() => {
     setUnderlineHeader((prevUnderlineHeader) => !prevUnderlineHeader);
+    // eslint-disable-next-line no-unused-expressions
+    setAnimation();
+    setAutoplay();
+    setCellAlign();
+    setHeightMode();
+    setLength();
+    setScrollMode();
+    setSlideIndex();
+    setSlidesToScroll();
+    setSlidesToShow();
+    setTransitionMode();
+    setWrapAround();
+    setZoomScale();
+    setWithoutControls();
   }, []);
 
   const renderTopControls = (currentSlide) => {
