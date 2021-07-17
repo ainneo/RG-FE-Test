@@ -38,8 +38,8 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
-  /* animation: shake 0.8s; */
-  animation: 9s shake infinite alternate;
+  animation: shake 1s;
+  animation: 6s shake infinite alternate;
   /* shakin */
   @keyframes shake {
     0% {

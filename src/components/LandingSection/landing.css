@@ -50,21 +50,14 @@ button:hover {
   width: 110px;
 }
 
-.fade-in-text {
-  /* font-family: Arial, Helvetica, sans-serif; */
-  color: #fff;
-  animation: fadeIn linear 5s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
+#text-fade > * {
+  animation: fadein 6s;
 }
-
-@keyframes fadeIn {
-  0% {
+@keyframes fadein {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
