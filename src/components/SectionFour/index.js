@@ -9,7 +9,7 @@ import homeRetention from "../../assets/home-retention.svg";
 
 export default function SectionFour() {
   useEffect(() => {
-    Aos.init({ duration: 2000, delay: 100 });
+    Aos.init({ duration: 3000, delay: 100 });
   }, []);
 
   return (
@@ -30,19 +30,19 @@ export default function SectionFour() {
         </div>
         <div className="sectionFour-icons-container">
           <div className="sectionFour-icons">
-            <div className="sectionFour-icons-box">
+            <div data-aos="flip-up" className="sectionFour-icons-box">
               <img src={homeExpertise} alt="icons" />
               <p>LOREM</p>
             </div>
-            <div className="sectionFour-icons-box">
+            <div data-aos="zoom-in" className="sectionFour-icons-box">
               <img src={homeHygiene} alt="icons" />
               <p>LOREM IPSUM</p>
             </div>
-            <div className="sectionFour-icons-box">
+            <div data-aos="zoom-in" className="sectionFour-icons-box">
               <img src={homeLab} alt="icons" />
               <p>LOREM</p>
             </div>
-            <div className="sectionFour-icons-box">
+            <div data-aos="flip-up" className="sectionFour-icons-box">
               <img src={homeRetention} alt="icons" />
               <p>LOREM IPSUM</p>
             </div>

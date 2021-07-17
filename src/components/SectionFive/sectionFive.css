@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.sectionFive-banner {
+  position: relative;
+  min-height: 80vh;
+  background-image: url("../../assets/banner-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.sectionFive-banner-content {
+  display: flex;
+  justify-content: right;
+  padding-left: 100px;
+}
+
+.sectionFive-banner-text {
+  min-width: 320px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  color: #890159;
+}
+
+.sectionFive-banner-text p {
+  color: #555555;
+}
+
+.sectionFive-banner-text > * {
+  padding: 10px;
+}
+
+.sectionFive-banner-text button {
+  color: white;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  background-color: hsl(24, 90%, 53%);
+  animation: glow 10s infinite;
+  transition: 0.5s;
+}
+
+button:hover {
+  height: 55px;
+  width: 110px;
+}

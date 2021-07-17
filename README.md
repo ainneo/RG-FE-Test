@@ -26,3 +26,5 @@ npm i react-scroll
 
 [Aos Docs](https://github.com/michalsnik/aos)
 [Misc](https://www.youtube.com/watch?v=JcHLxzrsRS4)
+https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s
+https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219
