@@ -5,7 +5,7 @@ import "aos/dist/aos.css"; //Aos.init sets global animations to things that we w
 
 export default function SectionTwo() {
   useEffect(() => {
-    Aos.init({ duration: 3000, delay: 200 });
+    Aos.init({ duration: 2000, delay: 100 });
   }, []);
 
   return (

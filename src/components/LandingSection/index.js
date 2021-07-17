@@ -5,7 +5,7 @@ import "aos/dist/aos.css"; //Aos.init sets global animations to things that we w
 
 export default function Landing() {
   useEffect(() => {
-    Aos.init({ duration: 3000, delay: 400 });
+    Aos.init({ duration: 3000, delay: 300 });
   }, []);
 
   return (
