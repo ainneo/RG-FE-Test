@@ -32,15 +32,19 @@ export default function SectionFour() {
           <div className="sectionFour-icons">
             <div className="sectionFour-icons-box">
               <img src={homeExpertise} alt="icons" />
+              <p>LOREM</p>
             </div>
             <div className="sectionFour-icons-box">
               <img src={homeHygiene} alt="icons" />
+              <p>LOREM IPSUM</p>
             </div>
             <div className="sectionFour-icons-box">
               <img src={homeLab} alt="icons" />
+              <p>LOREM</p>
             </div>
             <div className="sectionFour-icons-box">
               <img src={homeRetention} alt="icons" />
+              <p>LOREM IPSUM</p>
             </div>
           </div>
         </div>

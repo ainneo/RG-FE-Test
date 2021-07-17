@@ -46,11 +46,12 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .sectionFour-icons > * {
   width: 25%;
-  margin: 30px;
+  margin: 35px;
 }
 
 @media screen and (min-width: 767px) {
