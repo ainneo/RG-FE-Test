@@ -1,11 +1,14 @@
 ## About this Project
 
-This is my personal website built with react.js and styled components.
+This is a frontend test for Grin Rooster. This project was built with React.js showcasing my vanilla JavaScript and CSS skills, as well as my responsive design skills. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and Styled Components. I would greatly appreciate feedback and responses to my code. Thank you!
 
 ## Technologies:
 
-- React.js (JS, HTML, CSS)
-- Styled Components (JS, CSS)
+- React.js (JavaScript, HTML, CSS)
+- Styled Components (A combination of vanilla JavaScript and CSS)
+- Aos for animated content
+
+### Addiontal Information:
 
 ### Create a Scrolling 1 Pager With a Responsive Nav and Sidebar - Linking to Sections of a Page
 
@@ -19,33 +22,7 @@ npm install react-icons --save
 npm i react-scroll
 ```
 
-#### Process 3 Steps:
+### Aos Animated Content
 
-Main Nav
-
-- layout jsx, desktop and mobile nav
-- layout styled components
-
-Sidebar Nav
-
-- layout jsx
-- layout styled components
-
-Toggle
-
-- create toggle function & state on Home component (index.js in Pages)
-- pass function and state to Sidebar component (index.js in Sidebar)
-- pass function to Navbar component (index.js in Navbar)
-
-### Formspree - Basic Contact form
-
-```
-npm i axios
-npm install @formspree/react
-```
-
-For more info checkout: https://formspree.io/blog/react-forms-1/
-
-#### Animated Gradient
-
-https://www.gradient-animator.com/
+[Aos Docs](https://github.com/michalsnik/aos)
+[Misc](https://www.youtube.com/watch?v=JcHLxzrsRS4)

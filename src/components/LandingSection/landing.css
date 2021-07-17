@@ -50,7 +50,7 @@ button:hover {
   width: 110px;
 }
 
-#text-fade > * {
+/* #text-fade > * {
   animation: fadein 6s;
 }
 @keyframes fadein {
@@ -60,4 +60,4 @@ button:hover {
   to {
     opacity: 1;
   }
-}
+} */
