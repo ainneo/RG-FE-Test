@@ -9,8 +9,20 @@ const Footer = () => {
       <p>Follow Us:</p>
       <div>
         <div className="footer-wrapper">
-          <img src={facebook} alt="social" />
-          <img src={instagram} alt="social" />
+          <a
+            href="https://www.roostergrin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={facebook} alt="social" />
+          </a>
+          <a
+            href="https://www.roostergrin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagram} alt="social" />
+          </a>
         </div>
       </div>
     </div>

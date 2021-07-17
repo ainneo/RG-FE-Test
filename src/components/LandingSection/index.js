@@ -17,7 +17,7 @@ export default function Landing() {
       >
         <div className="banner-text" id="text-fade">
           <h1>WELCOME TO</h1>
-          <h1>Rooster Grin</h1>
+          <h1>RoosterGrin</h1>
           <a href="#learnMore">
             <button>Learn More</button>
           </a>
