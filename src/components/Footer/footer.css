@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper img {
+  height: 80px;
+  padding: 15px;
+}
+
+.footer-container p {
+  padding-top: 30px;
+}

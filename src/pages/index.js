@@ -7,6 +7,7 @@ import SectionThree from "../components/SectionThree";
 import SectionFour from "../components/SectionFour";
 import SectionFive from "../components/SectionFive";
 import SectionSix from "../components/SectionSix";
+import Footer from "../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css"; //Aos.init sets global animations to things that we want to animate
 
@@ -40,6 +41,9 @@ export default function Home() {
       </div>
       <div data-aos="fade-right">
         <SectionSix />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

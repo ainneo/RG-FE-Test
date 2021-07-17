@@ -10,7 +10,7 @@ export default function SectionSix() {
   }, []);
 
   return (
-    <div id="what" className="sectionSix-container">
+    <div id="about" className="sectionSix-container">
       <div className="sectionSix-content">
         <div data-aos="fade-up" className="sectionSix-text">
           <h2>
