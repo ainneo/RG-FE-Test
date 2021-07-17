@@ -1,9 +1,11 @@
 html {
   font-size: 80%;
+  scroll-behavior: smooth;
 }
 
 .sectionSix-container {
   width: 100%;
+  overflow: hidden;
 }
 
 .sectionSix-text {

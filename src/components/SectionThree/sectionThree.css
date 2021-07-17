@@ -1,11 +1,5 @@
-/* .sectionThree-banner > * {
-  z-index: 100;
-} */
-html {
-  scroll-behavior: smooth;
-}
-
 .sectionThree-banner {
+  width: 100%;
   position: relative;
   min-height: 80vh;
   background-image: url("../../assets/banner-1.jpg");
@@ -13,6 +7,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  overflow-x: hidden !important;
 }
 
 .sectionThree-banner-content {

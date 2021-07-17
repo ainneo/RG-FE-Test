@@ -1,5 +1,6 @@
 html {
   font-size: 80%;
+  overflow-x: hidden !important;
 }
 
 .section-container {

@@ -9,3 +9,7 @@
   src: local("NeueHaasGroteskText-Regular"),
     url("./fonts/NeueHaasGroteskText-Regular.woff") format("truetype");
 }
+
+body {
+  overflow-x: hidden;
+}

@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 .banner > * {
@@ -8,7 +9,7 @@ html {
 
 .banner {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("../../assets/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;

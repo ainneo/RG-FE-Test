@@ -8,7 +8,6 @@ const CarouselConfig = () => {
   const [animation, setAnimation] = useState(undefined);
   const [autoplay, setAutoplay] = useState(false);
   const [cellAlign, setCellAlign] = useState("left");
-  const [cellSpacing, setCellSpacing] = useState(0);
   const [heightMode, setHeightMode] = useState("max");
   const [length, setLength] = useState(colors.length);
   const [scrollMode, setScrollMode] = useState("remainder");

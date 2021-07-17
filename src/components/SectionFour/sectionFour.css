@@ -2,13 +2,16 @@ html {
   font-size: 80%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .sectionFour-container {
   padding-top: 100px;
   width: 100%;
 }
 
 .sectionFour-text {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

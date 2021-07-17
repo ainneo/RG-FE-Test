@@ -3,6 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 
 export const SidebarContainer = styled.aside`
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;

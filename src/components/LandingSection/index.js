@@ -5,16 +5,17 @@ import "aos/dist/aos.css"; //Aos.init sets global animations to things that we w
 
 export default function Landing() {
   useEffect(() => {
-    Aos.init({ duration: 1000, delay: 500 });
+    Aos.init({
+      duration: 3000,
+      delay: 500,
+      loop: true,
+      mirror: true,
+    });
   }, []);
 
   return (
     <div className="banner text-fade">
-      <div
-        data-aos="fade-in zoom-out"
-        data-aos-mirror="true"
-        className="banner-content"
-      >
+      <div data-aos="flip-up" className="banner-content">
         <div className="banner-text" id="text-fade">
           <h1>WELCOME TO</h1>
           <h1>RoosterGrin</h1>
