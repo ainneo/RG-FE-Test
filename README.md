@@ -2,7 +2,7 @@
 
 This project was built with React.js showcasing vanilla JavaScript, CSS, and responsive design. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Please checkout the responsive navagition bar and overall responsiveness. The hero font only fades in onpage load and not onpage scroll like the other animations. I would greatly appreciate feedback and questions regarding the code.
 
-#### See it live here !(RoosterGrin)[https://roostergrin.netlify.app/]
+#### See it live here ![RoosterGrin](https://roostergrin.netlify.app/)
 
 ## Technologies:
 
@@ -38,10 +38,10 @@ npm i react-scroll
 
 ### Aos Animated Content
 
-!(Aos Docs)[https://github.com/michalsnik/aos]
-!(Misc)[https://www.youtube.com/watch?v=JcHLxzrsRS4]
-!(Misc)[https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s]
-!(Codesandbox)[https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219]
+![Aos Docs](https://github.com/michalsnik/aos)
+![Misc](https://www.youtube.com/watch?v=JcHLxzrsRS4)
+![Misc](https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s)
+![Codesandbox](https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219)
 
 ### React Carousel
 
