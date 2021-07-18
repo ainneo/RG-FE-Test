@@ -1,6 +1,6 @@
 ## About this Project
 
-This project was built with React.js showcasing vanilla JavaScript, CSS, and responsive design skills. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and overall responsiveness. I would greatly appreciate feedback and questions regarding my code.
+This project was built with React.js showcasing vanilla JavaScript, CSS, and responsive design. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and overall responsiveness. The hero font only fades in on page load and not on page scroll like the other animations. I would greatly appreciate feedback and questions regarding my code.
 
 #### See it live here !(RoosterGrin)[https://roostergrin.netlify.app/]
 
