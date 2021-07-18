@@ -1,12 +1,25 @@
 ## About this Project
 
-This is a frontend test for Grin Rooster. This project was built with React.js showcasing my vanilla JavaScript and CSS skills, as well as my responsive design skills. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and Styled Components. I would greatly appreciate feedback and responses to my code. Thank you!
+This is a frontend test for RoosterGrin. This project was built with React.js showcasing my vanilla JavaScript and CSS skills, as well as my responsive design skills. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and overal responsiveness. I would greatly appreciate feedback and questions regarding my card.
+#### See it live here (RoosterGrin)[https://roostergrin.netlify.app/]
 
 ## Technologies:
 
 - React.js (JavaScript, HTML, CSS)
 - Styled Components (A combination of vanilla JavaScript and CSS)
 - Aos for animated content
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ### Addiontal Information:
 
@@ -24,11 +37,11 @@ npm i react-scroll
 
 ### Aos Animated Content
 
-[Aos Docs](https://github.com/michalsnik/aos)
-[Misc](https://www.youtube.com/watch?v=JcHLxzrsRS4)
-https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s
-https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219
+(Aos Docs)[https://github.com/michalsnik/aos]
+(Misc)[https://www.youtube.com/watch?v=JcHLxzrsRS4]
+(Misc)[https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s]
+(Codesandbox)[https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219]
 
 ### React Carousel
 
-[Docs](https://github.com/FormidableLabs/nuka-carousel)
+(Docs)[https://github.com/FormidableLabs/nuka-carousel]
