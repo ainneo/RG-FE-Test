@@ -1,7 +1,8 @@
 ## About this Project
 
-This is a frontend test for RoosterGrin. This project was built with React.js showcasing my vanilla JavaScript and CSS skills, as well as my responsive design skills. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and overal responsiveness. I would greatly appreciate feedback and questions regarding my card.
-#### See it live here (RoosterGrin)[https://roostergrin.netlify.app/]
+This project was built with React.js showcasing vanilla JavaScript, CSS, and responsive design skills. I used React Scroll for scrolling, Styled Components for styling, and Aos library for animations. Be sure to check out the responsive navagition bar and overall responsiveness. I would greatly appreciate feedback and questions regarding my code.
+
+#### See it live here !(RoosterGrin)[https://roostergrin.netlify.app/]
 
 ## Technologies:
 
@@ -37,11 +38,11 @@ npm i react-scroll
 
 ### Aos Animated Content
 
-(Aos Docs)[https://github.com/michalsnik/aos]
-(Misc)[https://www.youtube.com/watch?v=JcHLxzrsRS4]
-(Misc)[https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s]
-(Codesandbox)[https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219]
+!(Aos Docs)[https://github.com/michalsnik/aos]
+!(Misc)[https://www.youtube.com/watch?v=JcHLxzrsRS4]
+!(Misc)[https://www.youtube.com/watch?v=eZT-OrhxiMY&t=27s]
+!(Codesandbox)[https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219]
 
 ### React Carousel
 
-(Docs)[https://github.com/FormidableLabs/nuka-carousel]
+!(Docs)[https://github.com/FormidableLabs/nuka-carousel]
