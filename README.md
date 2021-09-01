@@ -44,4 +44,4 @@ npm i react-scroll
 - [Codesandbox](https://codesandbox.io/s/logrocket-svg-tutorial-starter-9per3?file=/index.html:150-219)
 
 ### React Carousel
-- [Docs](https://github.com/FormidableLabs/nuka-carousel)
+- NEED TO UPDATE DOCS for carousel portion
